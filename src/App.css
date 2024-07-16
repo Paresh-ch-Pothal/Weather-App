@@ -1,0 +1,74 @@
+.container{
+  height: 100%;
+}
+.t1{
+  font-size: 1.4rem;
+}
+.t2, .t3{
+  font-size: 1.2rem;
+}
+.card{
+  width: 18rem;
+}
+.container-w{
+  gap: 40px;
+}
+.searchbutton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style to history component */
+.history-input, .history-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.history-input{
+  height: 100%;
+  flex-direction: column;
+}
+.card{
+  border: 1px solid black;
+}
+.history-card{
+  height: 100%;
+  gap: 50px;
+}
+.container-hd{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.hourly-data{
+  width: 12%;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1000px){
+  .container{
+    gap: 20px;
+  }
+  .history-card{
+    flex-direction: column;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 800px){
+  .container{
+    flex-direction: column;
+    position: relative;
+    gap: 50px;
+    top: 10px;
+    overflow: scroll;
+  }
+  .card{
+    width: 100%;
+  }
+}
