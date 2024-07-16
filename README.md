@@ -9,10 +9,6 @@ A simple and responsive weather application built using React that allows users 
 - Background image changes based on weather conditions
 - Responsive design for mobile and desktop
 
-## Demo
-
-![Weather App Screenshot](path/to/screenshot.png)
-
 ## Getting Started
 
 Follow these instructions to set up and run the project locally.
@@ -21,7 +17,7 @@ Follow these instructions to set up and run the project locally.
 
 - Node.js (version 14 or higher)
 - npm (version 6 or higher) or yarn (version 1.22 or higher)
-- A free API key from [OpenWeatherMap](https://openweathermap.org/api)
+- A free API key from weather API
 
 ### Installation
 
